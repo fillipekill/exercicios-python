@@ -4,9 +4,5 @@ while True:
     if num < 0 :
         break
     
-    count = 1
-
-    while count < 11:
-        print(f'{num} X {count} = {num * count}')
-        
-        count += 1
+    for i in range(1, 11):
+        print(f'{num} X {i} = {num * i}')
